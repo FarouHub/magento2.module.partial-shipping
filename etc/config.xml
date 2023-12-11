@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <carriers>
+            <partial_shipping>
+                <model>Lightweight\PartialShipping\Model\Carrier\PartialShipping</model>
+                <active>0</active>
+                <title>Partial Shipping</title>
+                <name>Send articles as soon as they are available</name>
+                <logging_enabled>0</logging_enabled>
+                <min_shipment_groups>2</min_shipment_groups>
+                <fallback_shipping_rate>0</fallback_shipping_rate>
+                <specificerrmsg>This shipping method is not available. To use this shipping method, please contact us.</specificerrmsg>
+                <sallowspecific>0</sallowspecific>
+                <showmethod>0</showmethod>
+                <sort_order>10</sort_order>
+            </partial_shipping>
+        </carriers>
+    </default>
+</config>

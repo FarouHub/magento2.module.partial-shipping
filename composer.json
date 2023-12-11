@@ -1,0 +1,22 @@
+{
+    "name": "lightweight/magento2.module.partial-shipping",
+    "description": "A Magento 2 module that provides a partial shipping method",
+    "type": "magento2-module",
+    "authors": [
+        {
+            "name": "Theo Sotiriadis",
+            "email": "theo.sotiriadis@7thsense.de",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Lightweight\\PartialShipping\\": ""
+        }
+    }
+}
